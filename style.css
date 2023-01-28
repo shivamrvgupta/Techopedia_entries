@@ -1,0 +1,23 @@
+.bg-tech{
+  background: #08191f !important;
+  color: antiquewhite;
+}
+
+.btn-tech{
+  background: #08191f !important;
+  color: antiquewhite !important;
+  width: 100%;
+}
+
+.bg-tech h4{
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+
+
+#msg{
+  color: #61b752;
+  margin-top: 10px;
+  display: block;
+  font-family: Montserrat;
+}

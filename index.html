@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- custom -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Space+Grotesk:wght@700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.png">
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  
+    <title>Techopedia XI | IEEE SIESGST</title>
+  </head>
+<body>
+
+  <div class="entries py-5">
+    <div class="container">
+      <div class="card">
+        <div class="card-header bg-tech text-white">
+          <h4>
+            <i class="fas fa-user-plus"></i> Register</h4>
+        </div>
+        <div class="card-body">
+          <!-- Alerts -->
+          <span id="msg"></span>
+            <form name="submit-to-google-sheet">
+              <div class="row">
+                <div class="form-group">
+                  <label for="Event_name">Event Name</label>
+                  <select class="form-select" name="Event_name">
+                    <option>---</option>
+                    <option>Inquisitive</option>
+                    <option>Squabble</option>
+                    <option>Mystification</option>
+                  </select>
+                </div>
+                <div class="col-md-06">
+                  <h6 class="pt-4">Player 1</h6>
+                  <!-- Player1-->
+                  <div class="form-group">
+                    <label for="Player1">Name</label>
+                    <input type="text" name="Player1" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Number">Number</label>
+                    <input type="number" name="Number" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Branch">Branch</label>
+                    <input type="text" name="Branch" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Year">Year</label>
+                    <select class="form-select" name="Year">
+                      <option>---</option>
+                      <option>FE</option>
+                      <option>SE</option>
+                      <option>TE</option>
+                      <option>BE</option>
+                      <option>other</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="College">College</label>
+                    <input type="text" name="College" class="form-control" required>
+                  </div>
+
+                </div>
+                <div class="col-md-06">
+                  <h6 class="pt-4">Player 2</h6>
+                  <!-- Player2 -->
+                  <div class="form-group">
+                    <label for="Player2">Name</label>
+                    <input type="text" name="Player2" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Email2">Email</label>
+                    <input type="email" name="Email2" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Number2">Number</label>
+                    <input type="number" name="Number2" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Branch2">Branch</label>
+                    <input type="text" name="Branch2" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Year2">Year</label>
+                    <select class="form-select" name="Year2">
+                      <option>---</option>
+                      <option>FE</option>
+                      <option>SE</option>
+                      <option>TE</option>
+                      <option>BE</option>
+                      <option>other</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="College2">College</label>
+                    <input type="text" name="College2" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="Payment">Payment</label>
+                  <select class="form-select" name="Payment">
+                    <option>---</option>
+                    <option>Online</option>
+                    <option>Portal</option>
+                    <option>Cash</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="Status">Status</label>
+                  <select class="form-select" name="Status">
+                    <option>---</option>
+                    <option>Paid</option>
+                    <option>Unpaid</option>
+                    <option>other</option>
+                  </select>
+                </div>
+              </div>
+            <button type="submit" class="btn mt-3 btn-tech btn-lg btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <!-- script -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQ7Uk1pjsAbxg_VHWUCcZ2owkmc6rOF8cqSUl0FZXBwkgf1yKcgvFM_YHr2ZZWEKKOVg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => {
+          msg.innerHTML = "There is Error, Please Check the values again"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+    })
+  </script>
+</body>
+</html>
